@@ -1,0 +1,174 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	width: 100%;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CLEAR FIX*/
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+/* Hides from IE-mac */
+* html .clearfix {
+	height: 1%;
+}
+
+.clearfix {
+	display: block;
+}
+
+.wrap{
+	background: url(images/m3.jpg) top right;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+font-family: helvetica;
+color:#FFFFFF;
+}
+
+img#logo{
+	width: 200px;
+	margin: 20px 0px 0px 30px;
+	position: fixed;
+}
+header{
+	height: 2000px;
+}
+header nav{
+position: fixed;
+font-family: helvetica;
+color: #FFF;
+font-size: 40px;
+letter-spacing: 4px;
+font-weight: bold;
+background: rgba(50,50,50,.7);
+padding: 20px;
+width: 220px;
+margin: 270px 0px 0px 30px;
+}
+
+header nav a{
+	text-decoration: none;
+	color: #FFF;
+	position: relative;
+	left: 0px;
+	-webkit-transition: left .25s ease-in-out;
+	-moz-transition: left .25s ease-in-out;
+	-o-transition: left .25s ease-in-out;
+	-ms-transition: left .25s ease-in-out;
+	transition: left .25s ease-in-out;
+}
+header nav a:hover{
+	position: relative;
+	left: 20px;
+}
+
+header .player{
+	position: fixed;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 78%;
+}
+header .sociallinks{
+position: fixed;
+z-index: 100000;
+top: 35px;
+margin-left: 85%;
+margin-top: 75%;
+}
+header .sociallinks .social:hover{
+	opacity: .5;
+}
+header .sociallinks .social{
+	float:left;
+	margin-left: 20px;
+	-webkit-transition: opacity .3s ease-in-out;
+	-moz-transition: opacity .3s ease-in-out;
+	-o-transition: opacity .3s ease-in-out;
+	-ms-transition: opacity .3s ease-in-out;
+	transition: opacity .3s ease-in-out;
+}
+header .sociallinks .social img{
+	width: 40px;
+}
+.sc-player .sc-controls a {
+top: 90px !important;
+}
+
+a.marker{
+	height: 10px;
+	display:block;
+	position: relative;
+	top: -960px;
+}
+
+section{
+background: rgba(50,50,50,.7);
+	padding: 30px;
+	line-height: 20px;
+	max-width: 700px;
+	margin: 0 auto;
+	position: relative;
+	top: -700px;
+	margin-bottom: 500px;
+}
+
+section:last-child{
+	margin-bottom: 0px;
+}
+
+
