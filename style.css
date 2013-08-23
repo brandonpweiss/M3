@@ -142,7 +142,7 @@ position: fixed;
 z-index: 100000;
 top: 35px;
 margin-left: 85%;
-margin-top: 75%;
+margin-top: 84%;
 }
 header .sociallinks .social:hover{
 	opacity: .5;
@@ -159,10 +159,6 @@ header .sociallinks .social{
 header .sociallinks .social img{
 	width: 40px;
 }
-.sc-player .sc-controls a {
-top: 90px !important;
-}
-
 a.marker{
 	height: 10px;
 	display:block;
@@ -171,7 +167,7 @@ a.marker{
 }
 
 section{
-background: rgba(50,50,50,.7);
+background: rgba(150,150,150,.5);
 	padding: 30px;
 	line-height: 20px;
 	max-width: 700px;

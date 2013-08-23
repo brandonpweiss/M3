@@ -44,7 +44,6 @@
 			<img src="images/soundcloud2.png" alt="">
 		</a>
 	</div>
-	 <div class="player"><a href="http://soundcloud.com/deejaym3" class="sc-player">asdfas</a></div>
 </header>
 <a class="marker" name="about"></a>
 <section id="about">
@@ -59,8 +58,7 @@
 <!-- </div>
 </div> -->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-    <script type="text/javascript" src="js/soundcloud.player.api.js"></script>
-    <script type="text/javascript" src="js/sc-player.js"></script>
+    <script type="text/javascript" src="http://stratus.sc/stratus.js"></script>
     <script src="scroll.js"></script>
     <script>
     	$(document).ready(function()
@@ -87,6 +85,12 @@
 			});
 		});
     </script>
-
+    <script type="text/javascript">
+  $(document).ready(function(){
+    $.stratus({
+      links: 'http://soundcloud.com/deejaym3'
+    });
+  });
+</script>
 </body>
 </html>
