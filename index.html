@@ -3,36 +3,62 @@
 <head>
 <meta charset="UTF-8">
 <title>M3</title>
-<link rel="stylesheet" href="css/sc-player-standard.css" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link href="style.css" type="text/css" rel="stylesheet">
-
 <link href="normalize.css" rel="stylesheet" type="text/css">
+ <link href="component.css" rel="stylesheet" type="text/css">
 <!--[if lt IE 9]>
      <script src="html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-
-
-<script src="modernizr.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="modernizr.custom.js" type="text/javascript"></script>
+<script src="jquery.instagram.js"></script>
+<script type="text/javascript" src="jquery.dlmenu.js"></script>
+<script type="text/javascript" src="http://stratus.sc/stratus.js"></script>
 </head>
 <body>
+	<a name="top"></a>
 	<div class="reg_bg">
 	</div>
 		<div class="blurry_bg">
 		</div>
 			<div class="wrap">
 <header class="clearfix">
-	<img src="images/logo4.png" alt="M3" id="logo">
+	<div class="headerwrap">
+	<a href="#" class="logo" id="top"><img src="images/logo4.png" alt="M3" id="logo"></a>
+	<a href="#" class="logo2" id="top"><img src="images/logo3.png" alt="M3" id="log2"></a>
 	<nav>
 		<ul class="nav">
 			<li><a href="#" id="about">ABOUT</a></li>
-			<li><a href="#" id="booking">BOOKING</a></li>
-			<li><a href="#" id="music">MUSIC</a></li>
+			<li><a href="http://www.soundcloud.com/deejaym3" target="_blank" id="music">MUSIC</a></li>
 			<li><a href="#" id="photos">PHOTOS</li>
 			<li><a href="#" id="events">EVENTS</a></li>
-			<li><a href="#" id="videos">VIDEOS</a></li>
-			<li><a href="#" id="EPK">EPK</a></li>
+			<li><a href="http://www.youtube.com" target="_blank" id="videos">VIDEOS</a></li>
+			<li><a href="M3bio.pdf" target="_blank" id="EPK">EPK</a></li>
+			<li><a href="#" id="booking">BOOKING</a></li>
 		</ul>
 	</nav>
+	 <!--/////////////////////////////////
+            ///////////hamburger menu////////////
+            ////////////////////////////////////-->
+
+            <div id="dl-menu" class="dl-menuwrapper">
+                <button>Open Menu</button>
+                <ul class="dl-menu hamburger">
+                    <li><a href="#" class="hamburger-navitem" id="hamburgerNavAbout">ABOUT</a></li>
+                    <li><a href="#" class="hamburger-navitem" id="hamburgerNavMusic">MUSIC</a></li>
+                    <li><a href="#" class="hamburger-navitem" id="hamburgerNavPhotos">PHOTOS</a></li>
+                    <li><a href="#" class="hamburger-navitem" id="hamburgerNavEvents">EVENTS</a></li>
+                    <li><a href="http://www.youtube.com" class="hamburger-navitem" id="hamburgerNavVideos">VIDEOS</a></li>
+                    <li><a href="#" class="hamburger-navitem" id="hamburgerNavBooking">BOOKING</a></li>
+                </ul>
+            </div><!-- /dl-menuwrapper -->
+	</div>
+	<div class="centerpiece">
+			<img id="biglogo" src="images/logo4.png">
+	<div class="official">THE OFFICIAL SITE OF DJM3</div>
+	<a href="#" id="moreabout">VIEW MORE ></a>
+	</div>
 	<div class="sociallinks">
 		<a href="http://www.facebook.com" target="_blank" class="social">
 			<img src="images/fb2.png" alt="">
@@ -46,51 +72,72 @@
 	</div>
 </header>
 <a class="marker" name="about"></a>
-<section id="about">
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque esse consequatur harum odit explicabo beatae maiores provident sint animi possimus! Cupiditate, consequuntur, temporibus, aspernatur recusandae quas esse minus itaque inventore deleniti distinctio nam sit illo nihil libero explicabo fuga architecto voluptatibus eaque dolorum velit odit doloremque ad quisquam nostrum provident molestias unde fugit eius eveniet quae atque impedit sapiente placeat facere sed omnis cumque ducimus. Nesciunt, soluta, perspiciatis, aliquid cumque perferendis fugit at quibusdam delectus mollitia nobis modi ratione possimus officia corporis repudiandae similique amet. Dolore, unde, aliquam aut ad blanditiis qui neque tempore distinctio voluptate quia amet excepturi quis.
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, autem, ut, amet optio fugit odio numquam eveniet velit esse obcaecati totam deserunt molestias molestiae fuga quos sequi reprehenderit. Natus, ipsa, distinctio, odio, dignissimos est consectetur omnis libero a asperiores architecto repellat unde pariatur obcaecati nesciunt illum beatae ab. Quibusdam, odio.
+<section class="clearfix" id="about">
+	<h1>ABOUT <img src="images/logo4.png"></h1>
+	<p>A well known Philly DJ, M3 has been in the game for 20+ years. Growing up listening to hip hop and R&B in the early 80’s through the 90’s, founded a prominent radio mix show in the MD/DC area. Returned to Philly to rock the clubs, store openings and bars with talented artists and various DJs. Spent a year in LA promoting his mixing style and working with producers, dancers and club DJs. Brought back new skills and massive musical selections. Now spinning for the SWEAT Fitness circuit, PUMA and Hip Philly with a residency at Raven Lounge. M3 is known as an entertainer with a great understanding and appreciation of music. He consistently destroys dance floors without missing a beat.</p> <br><br>
+	<p>VENUES PERFORMED AT</p>
+<p>Surrender, Las Vegas | Fluid Nightclub, Philly | Melkweg, Amsterdam</p><br><br>
+<p>ARTISTS PERFORMED WITH</p>
+<p>Public Enemy | De La Soul | Common | Digital Underground | Ice T | Ice Cube</p>
 </section>
-<section id="about">
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque esse consequatur harum odit explicabo beatae maiores provident sint animi possimus! Cupiditate, consequuntur, temporibus, aspernatur recusandae quas esse minus itaque inventore deleniti distinctio nam sit illo nihil libero explicabo fuga architecto voluptatibus eaque dolorum velit odit doloremque ad quisquam nostrum provident molestias unde fugit eius eveniet quae atque impedit sapiente placeat facere sed omnis cumque ducimus. Nesciunt, soluta, perspiciatis, aliquid cumque perferendis fugit at quibusdam delectus mollitia nobis modi ratione possimus officia corporis repudiandae similique amet. Dolore, unde, aliquam aut ad blanditiis qui neque tempore distinctio voluptate quia amet excepturi quis.
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, autem, ut, amet optio fugit odio numquam eveniet velit esse obcaecati totam deserunt molestias molestiae fuga quos sequi reprehenderit. Natus, ipsa, distinctio, odio, dignissimos est consectetur omnis libero a asperiores architecto repellat unde pariatur obcaecati nesciunt illum beatae ab. Quibusdam, odio.
+<a class="marker" name="photos"></a>
+<section class="clearfix" id="photos">
+	<h1>#M3Philly</h1>
+	<div class="instagram clearfix"></div>
+</section>
+<a class="marker" name="events"></a>
+<section class="clearfix" id="events">
+<table>
+	<tr>
+		<td>DATE</td>
+		<td>TIME</td>
+		<td>VENUE</td>
+	</tr>
+	<tr>
+		<td>October 25th, 2013</td>
+		<td>1:00p</td>
+		<td>Love Park</td>
+	</tr>
+		<tr>
+		<td>October 25th, 2013</td>
+		<td>1:00p</td>
+		<td>Love Park</td>
+	</tr>
+</table>
+</section>
+<a class="marker" name="booking"></a>
+<section class="clearfix" id="booking">
+	For booking inqueries, please contact: <br>
+	<a style="font-size: 20px" href="mailto:djm3booking@gmail.com">DJM3booking@Gmail.com</a>
 </section>
 </div>
 <!-- </div>
 </div> -->
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-    <script type="text/javascript" src="http://stratus.sc/stratus.js"></script>
-    <script src="scroll.js"></script>
-    <script>
-    	$(document).ready(function()
-		{
-			var i = 101;
 
-			$(window).scroll(function()
-			{
-				var pos = $(window).scrollTop();
-				if (pos > 101) {
-					i = pos;
-				}
-
-				if (i < 1000)
-				{
-					$('.blurry_bg').css({ 'opacity': '.'+i});
-					// i++;
-				}
-				else if (i > 1000)
-				{
-					$('.blurry_bg').css({ 'opacity': '1000'});
-				};
-
-			});
-		});
-    </script>
-    <script type="text/javascript">
-  $(document).ready(function(){
-    $.stratus({
-      links: 'http://soundcloud.com/deejaym3'
-    });
-  });
+<script type="text/javascript">
+$(function() {
+$(".instagram").instagram({
+  hash: 'm3philly'
+, clientId: '8d07f20351af48bbabda7b11ae11ed03'
+});
+});
 </script>
+<script type="text/javascript" src="dlmenu2.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+$.stratus({
+  links: 'http://soundcloud.com/deejaym3'
+});
+});
+</script>
+<script>// When ready...
+window.addEventListener("load",function() {
+	// Set a timeout...
+	setTimeout(function(){
+		// Hide the address bar!
+		window.scrollTo(0, 1);
+	}, 0);
+});</script>
+<script type="text/javascript" src="scroll.js"></script>
 </body>
 </html>

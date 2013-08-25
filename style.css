@@ -100,7 +100,7 @@ img#logo{
 	position: fixed;
 }
 header{
-	height: 2000px;
+	height: 1000px;
 }
 header nav{
 position: fixed;
@@ -131,18 +131,12 @@ header nav a:hover{
 	left: 20px;
 }
 
-header .player{
-	position: fixed;
-	width: 100%;
-	margin: 0 auto;
-	margin-top: 78%;
-}
 header .sociallinks{
 position: fixed;
 z-index: 100000;
 top: 35px;
 margin-left: 85%;
-margin-top: 84%;
+margin-top: 82%;
 }
 header .sociallinks .social:hover{
 	opacity: .5;
@@ -163,22 +157,254 @@ a.marker{
 	height: 10px;
 	display:block;
 	position: relative;
-	top: -960px;
+	top: -150px;
 }
 
 section{
-background: rgba(150,150,150,.5);
+background: rgba(100,100,100,.5);
+-webkit-box-shadow:  1px 1px 1px 1px rgba(1, 1, 1, .4);
+        box-shadow:  1px 1px 1px 1px rgba(1, 1, 1, .4);
 	padding: 30px;
+	font-size: 14px;
 	line-height: 20px;
 	max-width: 700px;
 	margin: 0 auto;
 	position: relative;
-	top: -700px;
-	margin-bottom: 500px;
+	text-align: center;
+	margin-bottom: 200px;
 }
 
 section:last-child{
-	margin-bottom: 0px;
+margin-bottom: 400px;
 }
 
 
+.instagram a img{
+	float:left;
+	margin: 10px;
+}
+section#photos{
+
+clear:both;
+}
+
+#booking a{
+	color: red;
+}
+a.logo2{
+	display:none;
+}
+td{
+	padding: 0px 20px 10px 20px;
+}
+h1 img{
+	width: 25px;
+}
+.centerpiece{
+	display:none;
+}
+@media screen and (max-width: 1024px) {
+	section{
+		float:right;
+		width: 600px;
+	}
+	a.marker{
+		clear:both;	
+	}
+	header .sociallinks{
+	margin-left: 80%;
+	margin-top: 84%;
+	}
+
+}
+@media screen and (max-width: 800px) {
+#navbttn {
+	display: block;
+	background: url(images/nav-button.png) center center no-repeat;
+
+	-webkit-background-size: 65% auto;
+	-moz-background-size: 65% auto;
+	background-size: 65% auto;
+	position: fixed;
+	top: 0;
+	height: 50px;
+	right: 0;
+	width: 50px;
+	z-index: 999;
+	cursor: pointer;
+}
+nav ul li a {
+	width: 100%;
+	border-left: 0;
+	border-bottom: #CCCCCC solid thin;
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+	.reg_bg{
+		position: fixed;
+		height: 100%;
+		width: 100%;
+		background: url(images/m3.jpg) -300px 0px no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		background-size: cover;
+	}
+	.blurry_bg {
+		position: fixed;
+		height: 100%;
+		width: 100%;
+		background: url(images/blurry.jpeg) -300px 0px no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		background-size: cover;
+		opacity: .101;
+	}
+
+	header .sociallinks{
+	margin-left: 75%;
+	}
+	section{
+		float:none;
+	}
+	header nav{
+		display:none;
+	}
+	header .headerwrap{
+	-webkit-box-shadow:  1px 1px 1px 1px rgba(1, 1, 1, .4);
+        
+        box-shadow:  1px 1px 1px 1px rgba(1, 1, 1, .4);
+		height: 40px;
+		position: fixed;
+		z-index: 1000;
+		width: 100%;
+		background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(243,243,243,1) 50%, rgba(237,237,237,1) 51%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(50%,rgba(243,243,243,1)), color-stop(51%,rgba(237,237,237,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+	}
+	a.logo{
+		display:none;
+	}
+	a.logo2{
+		display:block;
+		width: 30px;
+	}
+	a.logo2 img{
+		width: 30px;
+		margin: 5px 0px 0px 5px;
+	}
+	section{
+		float:none;
+		width: 80%;
+	}
+	.centerpiece{
+		display:block;
+		position: absolute;
+		margin-left: -150px;
+		left: 50%;
+		top: 200px;
+	}
+	img#biglogo{
+		width: 300px;
+		opacity: .7;
+	}
+	.official{
+		margin-top: 10px;
+		background: #000;
+		text-align: center;
+		padding: 5px;
+	}
+	a#moreabout{
+		-webkit-box-shadow:  1px 1px 1px 1px rgba(1, 1, 1, .5);
+        box-shadow:  1px 1px 1px 1px rgba(1, 1, 1, .5);
+		text-align:center;
+		background: #FFF;
+		width: 150px;
+		color: #000;
+		margin: 0 auto;
+		display:block;
+		font-weight: bold;
+		margin-top: 10px;
+		font-size: 18px;
+		text-decoration:none;
+		padding: 10px;
+	}
+	a#moreabout:active{
+		-webkit-box-shadow:  0px 0px 0px 0px rgba(1, 1, 1, .5);
+        box-shadow:  0px 0px 0px 0px rgba(1, 1, 1, .5);
+		text-align:center;
+		background: #000;
+		width: 150px;
+		color: #FFF;
+		margin: 0 auto;
+		display:block;
+		font-weight: bold;
+		margin-top: 10px;
+		font-size: 18px;
+		text-decoration:none;
+		padding: 10px;
+	}
+	header .sociallinks{
+position: fixed;
+z-index: 100000;
+top: 35px;
+margin-left: 75%;
+margin-top: 82%;
+}
+}
+@media screen and (max-width: 500px){
+header .sociallinks{
+position: relative;
+width: 200px;
+z-index: 10;
+margin: 0 auto;
+top: 290px;
+}
+	.centerpiece{
+		display:block;
+		position: absolute;
+		margin-left: -150px;
+		left: 50%;
+		width: 300px;
+		top: 100px;
+		text-align: center;
+	}
+	.official{
+		margin-top: 10px;
+		background: #000;
+		text-align: center;
+		padding: 5px;
+		margin: 0 auto;
+		width: 250px;
+		display: inline-block;
+	}
+	a#moreabout{
+		-webkit-box-shadow:  1px 1px 1px 1px rgba(1, 1, 1, .5);
+        box-shadow:  1px 1px 1px 1px rgba(1, 1, 1, .5);
+		text-align:center;
+		background: #FFF;
+		width: 150px;
+		color: #000;
+		margin: 0 auto;
+		display:none;
+		font-weight: bold;
+		margin-top: 10px;
+		font-size: 18px;
+		text-decoration:none;
+		padding: 10px;
+	}
+		img#biglogo{
+		width: 150px;
+		opacity: .7;
+	}
+	a.marker{
+	height: 10px;
+	display:block;
+	position: relative;
+	top: -50px;
+}
+}
