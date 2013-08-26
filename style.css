@@ -83,7 +83,7 @@ table {
 	position: fixed;
 	height: 100%;
 	width: 100%;
-	background: url(images/blurry.jpeg) top right;
+	background: none;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -133,7 +133,6 @@ header nav a:hover{
 
 header .sociallinks{
 position: fixed;
-z-index: 100000;
 top: 35px;
 margin-left: 85%;
 margin-top: 82%;
@@ -184,7 +183,6 @@ margin-bottom: 400px;
 	margin: 10px;
 }
 section#photos{
-
 clear:both;
 }
 
@@ -218,6 +216,19 @@ h1 img{
 
 }
 @media screen and (max-width: 800px) {
+	.instagram a{
+		position: relative;
+		z-index: 100000000;
+	}
+.reg_bg{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background: url(images/m3tablet.jpg) top center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+}
 #navbttn {
 	display: block;
 	background: url(images/nav-button.png) center center no-repeat;
@@ -240,26 +251,6 @@ nav ul li a {
 	padding-top: 14px;
 	padding-bottom: 14px;
 }
-	.reg_bg{
-		position: fixed;
-		height: 100%;
-		width: 100%;
-		background: url(images/m3.jpg) -300px 0px no-repeat;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		background-size: cover;
-	}
-	.blurry_bg {
-		position: fixed;
-		height: 100%;
-		width: 100%;
-		background: url(images/blurry.jpeg) -300px 0px no-repeat;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		background-size: cover;
-		opacity: .101;
-	}
-
 	header .sociallinks{
 	margin-left: 75%;
 	}
@@ -271,11 +262,10 @@ nav ul li a {
 	}
 	header .headerwrap{
 	-webkit-box-shadow:  1px 1px 1px 1px rgba(1, 1, 1, .4);
-        
         box-shadow:  1px 1px 1px 1px rgba(1, 1, 1, .4);
 		height: 40px;
 		position: fixed;
-		z-index: 1000;
+		z-index: 100;
 		width: 100%;
 		background: rgb(255,255,255); /* Old browsers */
 background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(243,243,243,1) 50%, rgba(237,237,237,1) 51%, rgba(255,255,255,1) 100%); /* FF3.6+ */
@@ -348,71 +338,107 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 		text-decoration:none;
 		padding: 10px;
 	}
-	header .sociallinks{
-position: fixed;
-z-index: 100000;
-top: 35px;
-margin-left: 75%;
-margin-top: 82%;
+header .sociallinks{
+	position: fixed;
+	z-index: 1000;
+	top: 35px;
+	margin-left: 75%;
+	margin-top: 82%;
 }
-.instagram a img{
+.instagram a{
 	float:left;
 	width: 50px;
-	margin: 10px;
+	height: 50px;
+	margin: 5px;
 }
+.instagram a img{
+	width: 50px;
+	margin-top:0px;
+	margin-left: 0px;
+}
+section{
+background: rgba(100,100,100,.5);
+-webkit-box-shadow:  1px 1px 1px 1px rgba(1, 1, 1, .4);
+        box-shadow:  1px 1px 1px 1px rgba(1, 1, 1, .4);
+	padding: 30px;
+	font-size: 14px;
+	line-height: 20px;
+	max-width: 700px;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+section:last-child{
+margin-bottom: 00px;
+}
+
 }
 @media screen and (max-width: 500px){
-header .sociallinks{
-position: relative;
-width: 200px;
-z-index: 10;
-margin: 0 auto;
-top: 290px;
-}
-	.centerpiece{
-		display:block;
-		position: absolute;
-		margin-left: -150px;
-		left: 50%;
-		width: 300px;
-		top: 100px;
-		text-align: center;
-	}
-	.official{
-		margin-top: 10px;
-		background: #000;
-		text-align: center;
-		padding: 5px;
-		margin: 0 auto;
-		width: 250px;
-		display: inline-block;
-	}
-	a#moreabout{
-		-webkit-box-shadow:  1px 1px 1px 1px rgba(1, 1, 1, .5);
-        box-shadow:  1px 1px 1px 1px rgba(1, 1, 1, .5);
-		text-align:center;
-		background: #FFF;
-		width: 150px;
-		color: #000;
-		margin: 0 auto;
-		display:none;
-		font-weight: bold;
-		margin-top: 10px;
-		font-size: 18px;
-		text-decoration:none;
-		padding: 10px;
-	}
-		img#biglogo{
-		width: 150px;
-		opacity: .7;
-	}
-	a.marker{
-	height: 10px;
+.centerpiece{
 	display:block;
-	position: relative;
-	top: -50px;
+	position: absolute;
+	margin-left: -150px;
+	left: 50%;
+	width: 300px;
+	top: 100px;
+	text-align: center;
+}
+.official{
+	margin-top: 10px;
+	background: #000;
+	text-align: center;
+	padding: 5px;
+	margin: 0 auto;
+	width: 250px;
+	display: inline-block;
+}
+a#moreabout{
+	-webkit-box-shadow:  1px 1px 1px 1px rgba(1, 1, 1, .5);
+    box-shadow:  1px 1px 1px 1px rgba(1, 1, 1, .5);
+	text-align:center;
+	background: #FFF;
+	width: 150px;
+	color: #000;
+	margin: 0 auto;
+	display:none;
+	font-weight: bold;
+	margin-top: 10px;
+	font-size: 18px;
+	text-decoration:none;
+	padding: 10px;
+}
+	img#biglogo{
+	width: 150px;
+	opacity: .7;
+}
+a.marker{
+height: 10px;
+display:block;
+position: relative;
+top: -50px;
 }
 header{
 	height: 500px;
+}
+}
+
+@media screen and (max-width: 320px){
+	header .sociallinks{
+	position: relative;
+	width: 200px;
+	margin: 0 auto;
+	display:block;
+	top: 290px;
+}
+	.reg_bg{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background: url(images/m3mobile.jpg) top center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
 }
 }

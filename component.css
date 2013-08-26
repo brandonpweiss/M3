@@ -26,7 +26,6 @@
 	-webkit-perspective-origin: 50% 200%;
 	-moz-perspective-origin: 50% 200%;
 	perspective-origin: 50% 200%;
-	z-index: 100000;
 }
 
 .dl-menuwrapper:first-child {
@@ -130,7 +129,7 @@
 .dl-menuwrapper .dl-menu {
 	margin: 5px 0 0 0;
 	position: relative;
-	z-index: 10000;
+	z-index: 1000000000;
 	opacity: 0;
 	pointer-events: none;
 	-webkit-transform: translateY(10px);
