@@ -133,9 +133,8 @@ header nav a:hover{
 
 header .sociallinks{
 position: fixed;
-top: 35px;
-margin-left: 85%;
-margin-top: 82%;
+bottom: 45px;
+right: 25px;
 }
 header .sociallinks .social:hover{
 	opacity: .5;
@@ -207,11 +206,11 @@ h1 img{
 		width: 600px;
 	}
 	a.marker{
-		clear:both;	
+		clear:both;
 	}
 	header .sociallinks{
-	margin-left: 80%;
-	margin-top: 84%;
+/*	margin-left: 80%;
+	margin-top: 84%;*/
 	}
 
 }
@@ -252,7 +251,7 @@ nav ul li a {
 	padding-bottom: 14px;
 }
 	header .sociallinks{
-	margin-left: 75%;
+	/*margin-left: 75%;*/
 	}
 	section{
 		float:none;
@@ -339,11 +338,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 		padding: 10px;
 	}
 header .sociallinks{
-	position: fixed;
+/*	position: fixed;
 	z-index: 1000;
 	top: 35px;
 	margin-left: 75%;
-	margin-top: 82%;
+	margin-top: 82%;*/
 }
 .instagram a{
 	float:left;

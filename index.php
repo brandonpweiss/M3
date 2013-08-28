@@ -93,16 +93,18 @@
 		<td>TIME</td>
 		<td>VENUE</td>
 	</tr>
+<?php
+include ('config.php');
+$query = mysqli_query ($mysqli, "SELECT * FROM events");
+while ($row = mysqli_fetch_array($query)) {
+	print "
 	<tr>
-		<td>October 25th, 2013</td>
-		<td>1:00p</td>
-		<td>Love Park</td>
-	</tr>
-		<tr>
-		<td>October 25th, 2013</td>
-		<td>1:00p</td>
-		<td>Love Park</td>
-	</tr>
+		<td>$row[dt]</td>
+		<td>$row[tm]</td>
+		<td>$row[venue]</td>
+	</tr>";
+};
+?>
 </table>
 </section>
 <a class="marker" name="booking"></a>
